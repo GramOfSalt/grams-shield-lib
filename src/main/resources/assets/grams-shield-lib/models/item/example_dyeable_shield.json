@@ -1,0 +1,14 @@
+{
+  "parent":"grams-shield-lib:item/builtin_shield_model",
+  "textures":{
+    "shield":"grams-shield-lib:item/vanilla_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "grams-shield-lib:item/example_dyeable_shield_blocking"
+    }
+  ]
+}

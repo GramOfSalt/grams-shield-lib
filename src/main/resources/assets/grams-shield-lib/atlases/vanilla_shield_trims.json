@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "grams-shield-lib:trims/models/shield/bolt",
+        "grams-shield-lib:trims/models/shield/coast",
+        "grams-shield-lib:trims/models/shield/dune",
+        "grams-shield-lib:trims/models/shield/eye",
+        "grams-shield-lib:trims/models/shield/flow",
+        "grams-shield-lib:trims/models/shield/host",
+        "grams-shield-lib:trims/models/shield/raiser",
+        "grams-shield-lib:trims/models/shield/rib",
+        "grams-shield-lib:trims/models/shield/sentry",
+        "grams-shield-lib:trims/models/shield/shaper",
+        "grams-shield-lib:trims/models/shield/silence",
+        "grams-shield-lib:trims/models/shield/snout",
+        "grams-shield-lib:trims/models/shield/spire",
+        "grams-shield-lib:trims/models/shield/tide",
+        "grams-shield-lib:trims/models/shield/vex",
+        "grams-shield-lib:trims/models/shield/ward",
+        "grams-shield-lib:trims/models/shield/wayfinder",
+        "grams-shield-lib:trims/models/shield/wild"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "quartz": "trims/color_palettes/quartz",
+        "iron": "trims/color_palettes/iron",
+        "gold": "trims/color_palettes/gold",
+        "diamond": "trims/color_palettes/diamond",
+        "netherite": "trims/color_palettes/netherite",
+        "redstone": "trims/color_palettes/redstone",
+        "copper": "trims/color_palettes/copper",
+        "emerald": "trims/color_palettes/emerald",
+        "lapis": "trims/color_palettes/lapis",
+        "amethyst": "trims/color_palettes/amethyst",
+        "iron_darker": "trims/color_palettes/iron_darker",
+        "gold_darker": "trims/color_palettes/gold_darker",
+        "diamond_darker": "trims/color_palettes/diamond_darker",
+        "netherite_darker": "trims/color_palettes/netherite_darker"
+      }
+    }
+  ]
+}

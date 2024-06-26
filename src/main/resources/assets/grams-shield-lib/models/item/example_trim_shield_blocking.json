@@ -1,0 +1,6 @@
+{
+  "parent":"grams-shield-lib:item/builtin_shield_model_blocking",
+  "textures":{
+    "shield":"grams-shield-lib:item/vanilla_shield"
+  }
+}

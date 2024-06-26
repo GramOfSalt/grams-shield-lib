@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.gramofsalt.gramsshieldlib.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "ShieldDecorationRecipeMixin",
+    "ShieldItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "BuiltinModelItemRendererMixin",
+    "ClientPlayerEntityMixin",
+    "BakedModelManagerMixin"
+  ]
+}

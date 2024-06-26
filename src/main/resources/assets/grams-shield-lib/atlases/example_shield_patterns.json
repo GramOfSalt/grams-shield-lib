@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "grams-shield-lib:entity/vanilla_shield_base"
+    },
+    {
+      "type": "single",
+      "resource": "grams-shield-lib:entity/vanilla_shield_base_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "grams-shield-lib:entity/vanilla_shield_color_layer"
+    },
+    {
+      "type": "directory",
+      "source": "entity/vanilla_shield",
+      "prefix": "entity/shield/"
+    }
+  ]
+}

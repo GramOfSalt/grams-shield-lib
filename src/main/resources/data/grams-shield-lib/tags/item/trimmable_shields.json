@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:shield",
+    "grams-shield-lib:example_banner_shield",
+    "grams-shield-lib:example_dyeable_shield",
+    "grams-shield-lib:example_trim_shield"
+  ]
+}

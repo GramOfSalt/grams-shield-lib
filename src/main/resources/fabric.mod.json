@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "grams-shield-lib",
+	"version": "${version}",
+	"name": "Gram's Shield Lib",
+	"description": "Library allowing for shield implementation. Provides advanced customization and easy enchantment implementation.",
+	"authors": [
+		"GramOfSalt"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/grams-shield-lib/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gramofsalt.gramsshieldlib.GramsShieldLib"
+		],
+		"client": [
+			"net.gramofsalt.gramsshieldlib.GramsShieldLibClient"
+		]
+	},
+	"mixins": [
+		"grams-shield-lib.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.21.x",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
