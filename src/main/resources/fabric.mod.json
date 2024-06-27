@@ -7,11 +7,7 @@
 	"authors": [
 		"GramOfSalt"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/grams-shield-lib/icon.png",
 	"environment": "*",
 	"entrypoints": {
