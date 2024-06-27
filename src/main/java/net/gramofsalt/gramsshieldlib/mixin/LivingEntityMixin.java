@@ -43,7 +43,7 @@ public abstract class LivingEntityMixin {
             to = @At(value = "INVOKE", target = "Lnet/minecraft/entity/damage/DamageSource;isIn(Lnet/minecraft/registry/tag/TagKey;)Z", ordinal = 1)))
     private float explosionDamageModifier(float constant, DamageSource source, @Local(ordinal = 0, argsOnly = true) float amount) {
         ItemStack activeItem = entity.getActiveItem();
-        if (activeItem == null) return constant;
+        if (activeItem == null || source.isIn(ShieldTags.DamageTypeTags.NEVER_DAMAGE_WHEN_BLOCKED)) return constant;
         float maximumDamage = (float) ShieldAttributes.getModifierValue(activeItem, ShieldAttributes.SHIELD_MAXIMUM_DAMAGE_MODIFIER_ID);
         float damageResistance = (float) ShieldAttributes.getModifierValue(activeItem, ShieldAttributes.SHIELD_GENERIC_DAMAGE_RESISTANCE_MODIFIER_ID);
         float explosionResistance = (float) ShieldAttributes.getModifierValue(activeItem, ShieldAttributes.SHIELD_EXPLOSION_RESISTANCE_MODIFIER_ID);
