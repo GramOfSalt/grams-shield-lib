@@ -3,7 +3,7 @@
 	"id": "grams-shield-lib",
 	"version": "${version}",
 	"name": "Gram's Shield Lib",
-	"description": "Library allowing for shield implementation. Provides advanced customization and easy enchantment implementation.",
+	"description": "Library that simplifies shield implementation. Provides advanced customization and easy enchantment implementation.",
 	"authors": [
 		"GramOfSalt"
 	],
